@@ -2,7 +2,10 @@
 
 extern "C"
 __declspec(dllexport)
-int Demo()
+int Demo(int a, int b)
 {
-    return 0x9234;
+    int c;
+    c = a * 1000 + b;
+    return c;
+    //return 927413;
 }
