@@ -5,7 +5,7 @@ class Entry
     static int Main()
     {
         int a;
-        a = Extern.Demo();
+        a = Extern.Demo(70, 964);
         return a;
     }
 }
