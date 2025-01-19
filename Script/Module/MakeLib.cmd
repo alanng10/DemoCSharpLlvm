@@ -6,5 +6,5 @@ set LibPackageOutFold=.\Out\Lib-Windows-Release
 
 mkdir %LibPackageOutFold% 1>NUL 2>NUL
 pushd %LibPackageOutFold%
-qmake ../../Module/Lib/Lib.pro
+mingw32-make 1>NUL
 popd
