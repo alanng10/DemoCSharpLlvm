@@ -1,3 +1,6 @@
+#include <QString>
+
+extern "C"
 __declspec(dllexport)
 int Demo()
 {

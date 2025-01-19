@@ -1,6 +1,6 @@
 TEMPLATE = lib
 
-CONFIG -= qt
+QT -= gui
 
 SOURCES += \
-    Demo.c
+    Demo.cpp
